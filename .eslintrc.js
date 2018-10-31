@@ -13,6 +13,14 @@ module.exports = {
             "jsx": true
         }
     },
+    "settings": {
+        // See https://github.com/yannickcr/eslint-plugin-react#configuration
+        "react": {
+            "createClass": "createReactClass",
+            "pragma": "React",
+            "version": "15.0"
+        },
+    },
     "rules": {
         // Best Practices
         "complexity": [ "warn", 5 ],
