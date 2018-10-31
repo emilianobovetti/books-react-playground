@@ -1,0 +1,28 @@
+{
+  "name": "books-react-playground",
+  "author": "Emiliano Bovetti",
+  "version": "0.0.1",
+  "license": "GPL-3.0",
+  "main": "src/index.js",
+  "keywords": [],
+  "scripts": {
+    "dev": "node_modules/.bin/webpack-dev-server --open --mode development",
+    "build": "node_modules/.bin/webpack --mode production"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "eslint": "^5.8.0",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-react": "^7.11.1",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "webpack": "^4.23.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  }
+}
