@@ -18,7 +18,7 @@ module.exports = {
         "react": {
             "createClass": "createReactClass",
             "pragma": "React",
-            "version": "15.0"
+            "version": "16"
         },
     },
     "rules": {
